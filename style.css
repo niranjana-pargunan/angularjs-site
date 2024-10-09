@@ -1,0 +1,82 @@
+
+body{
+    background-color: navajowhite;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    text-align: center;
+    
+}
+.font-effect-outline {
+    text-shadow:0 1px 1px navajowhite, 0 -1px 1px navajowhite, 1px 0 1px navajowhite, -1px 0 1px navajowhite;
+    color: sienna;
+}
+.list-remove{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom: 20px;
+}  
+.list-remove button{
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color:sienna;
+}
+input[type=submit]{
+    font-size: 1rem;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: burlywood;
+    border: none;
+    background-color:saddlebrown;
+}
+    input[type=text]{
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 8px;
+    color:white;
+    border: none;
+    background-color:saddlebrown;
+    }
+
+.main{
+            display: block;
+            position: relative;
+            padding-left: 45px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            font-size: 25px;
+            font-style: italic;
+            color: sienna;
+        }
+
+        
+input.largerCheckbox{
+            width: 15px;
+            height: 15px;
+        }
+.list-adder button:hover{
+    transform: scale(1.1);
+    background-color:var(--black);
+}
+::placeholder{
+    color: burlywood;
+    opacity: 5;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  min-height: auto;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
